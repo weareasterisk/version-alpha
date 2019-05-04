@@ -17,7 +17,7 @@ export default class FAQ extends Component {
   }
 
   componentDidMount() {
-    // set initally selected FAQ 
+    // set initally selected FAQ
     this.changeFAQ(0);
   }
 
@@ -25,9 +25,9 @@ export default class FAQ extends Component {
     const { faqs } = this.state;
 
     // grab question and text - see faq object shape comment above.
-    const { question, questionText } = faqs[index]
+    const { question, questionText } = faqs[index];
     this.setState({ question, questionText })
-  }
+  };
 
   render() {
     const { faqs, question, questionText } = this.state;
@@ -39,7 +39,7 @@ export default class FAQ extends Component {
         {/* left side : faq list */}
           <div className="w-400p margin-center container-fluid faq-questions" >
             {
-              faqs.map( (faq, i) => 
+              faqs.map( (faq, i) =>
                 <p className="faq-link"
                   onClick={ () => this.changeFAQ(i)}
                 >
@@ -52,7 +52,7 @@ export default class FAQ extends Component {
           <div className="w-600p margin-center container-fluid faq-content">
             <h1 className="faq-header">FAQ</h1>
             <p className="font-weight-bold branding-orange m-b-6 faq-question"> {question} </p>
-            <p >  {questionText} </p>
+            <p className="pre-formatted" >  {questionText} </p>
           </div>
         </div>
       </section>

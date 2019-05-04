@@ -54,22 +54,22 @@ export default class GlobalNavBar extends Component {
         <Collapse isOpen={this.state.isOpen} navbar className="nav-center justify-content-center">
           <Nav navbar>
             <NavItem>
-              <NavLink onClick={this.close} href="#home">HOME</NavLink>
+              <NavLink onClick={this.close} href="/#home">HOME</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink onClick={this.close} href="#about">ABOUT</NavLink>
+              <NavLink onClick={this.close} href="/#about">ABOUT</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink onClick={this.close} href="#themes">THEMES</NavLink>
+              <NavLink onClick={this.close} href="/#themes">THEMES</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink onClick={this.close} href="#faq">FAQ</NavLink>
+              <NavLink onClick={this.close} href="/#faq">FAQ</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink onClick={this.close} href="#partners">PARTNERS</NavLink>
+              <NavLink onClick={this.close} href="/#partners">PARTNERS</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink onClick={this.close} href="#sponsors">SPONSORS</NavLink>
+              <NavLink onClick={this.close} href="/#sponsors">SPONSORS</NavLink>
             </NavItem>
           </Nav>
 

@@ -11,5 +11,5 @@ phases:
       - "npm run build"
   post_build:
     commands:
-      - "aws s3 sync ./build/ s3://version-alpha-staging --delete --exclude .git/ --exclude .gitignore"
-#      - aws cloudfront create-invalidation --distribution-id EVU6YSUZUQSXL --paths "/*"
+      - "aws s3 sync ./build/ s3://versionalpha.io --delete --exclude .git/ --exclude .gitignore"
+      - aws cloudfront create-invalidation --distribution-id EVU6YSUZUQSXL --paths "/*"

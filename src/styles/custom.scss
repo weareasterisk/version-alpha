@@ -27,7 +27,6 @@ blockquote {
 }
 
 a {
-  color: white;
   text-underline: white;
   text-underline-mode: white;
   font-weight: normal;
@@ -35,6 +34,14 @@ a {
 
 footer {
   margin-top: 4rem;
+}
+
+::selection {
+  background: $orange;
+}
+
+::-moz-selection {
+  background: $orange;
 }
 
 .copyright {
@@ -293,6 +300,10 @@ footer {
   color: $brand-orange
 }
 
+.branding-orange:hover {
+  color: $orange;
+}
+
 /*
 START FAQ STYLINGS
 */
@@ -309,7 +320,6 @@ START FAQ STYLINGS
   cursor: pointer;
   margin: 0 !important; // remove inherited margin
   padding: .5em; // add padding to help with hover shadow.
-  border-radius: 8px;
   &:hover {
     background-color: #2b2828
     // FIX this color later! - and basically all of the hover affects here.
@@ -319,12 +329,16 @@ START FAQ STYLINGS
   font-size: 1.5em;
   margin-top: 1em;
   margin-bottom: 1em;
+  letter-spacing: 0.06rem;
 }
 
 .faq-header {
   margin: 2em
 }
 
+.pre-formatted {
+  white-space: pre-line; // Preserve whitespace / newlines in JSON
+}
 
 /*
 END FAQ STYLINGS

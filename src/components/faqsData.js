@@ -6,6 +6,9 @@
    * }
    */
 
+/*
+ * PRESERVES FORMATTING --- KEEP NEWLINES
+ * */
 
 const data = [
   {
