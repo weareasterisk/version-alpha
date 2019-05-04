@@ -25,7 +25,7 @@ export default class GlobalNavBar extends Component {
   }
   render() {
     return(
-      <Navbar className="navbar" expand="md" dark fixed="top">
+      <Navbar className="navbar" expand="md" dark color="black" fixed="top">
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar className="nav-center justify-content-center">
           <Nav navbar>
@@ -33,16 +33,19 @@ export default class GlobalNavBar extends Component {
               <NavLink href="#home">HOME</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink>HOME</NavLink>
+              <NavLink href="#about">ABOUT</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink>HOME</NavLink>
+              <NavLink href="#themes">THEMES</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink>HOME</NavLink>
+              <NavLink href="#faq">FAQ</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink>HOME</NavLink>
+              <NavLink href="#partners">PARTNERS</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#sponsors">SPONSORS</NavLink>
             </NavItem>
           </Nav>
 
