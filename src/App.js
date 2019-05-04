@@ -28,10 +28,10 @@ function App() {
         <Switch>
           <Route path="/live" component={() => { window.location = 'https://live.weareasterisk.com/versionalpha19'; return null;} } />
         </Switch>
-        <div className="w-100">
+        <div className="w-100 p-top-50">
           <section id="home" className="pageHome">
             <img src="https://cdn.weareasterisk.com/hackathon-assets/versionalpha/logos/VA_Logo_LockUpWhite.svg" className="img-fluid image-center va-logo"/>
-            <h3 className="p-top-40 orange"><i>"Reimagining the Future of Gaming"</i></h3>
+            <h3 className="p-top-50 orange"><i>"Reimagining the Future of Gaming"</i></h3>
             <div className="description-block">
               <p className="description-item">May 31 - Jun 2, 2019</p>
               <p className="description-item">Kay Bailey Hutchinson Center | Dallas, TX</p>
@@ -59,15 +59,15 @@ function App() {
           <section id="themes" className="pageThemes">
             <h1>Themes</h1>
             <div className="w-800p margin-center container-fluid">
-              <p className="font-weight-bold branding-orange"><i>Innovating the Gaming Industry</i></p>
+              <p className="font-weight-bold branding-orange m-b-6">Innovating the Gaming Industry</p>
               <p>
                 Outside of games, a variety of software and technology exists for gaming enthusiasts. Platforms like Twitch or Discord provide streaming and communication capabilities to hundreds of millions of users across the globe. Shared marketplaces have made games available and more accessible across a variety of platforms. How might we innovate the products and services around games to make games more inclusive of and accessible to everyone?
               </p>
-              <p className="font-weight-bold branding-orange"><i>Game Development</i></p>
+              <p className="font-weight-bold branding-orange m-b-6">Game Development</p>
               <p>
                 Developers, designers, artists, and playtesters all share a common interest in pushing the creative boundaries of game development. Whether you work on the biggest franchises or small indie games, prototyping is a valuable and important part of the build process. How might we prototype an innovative game experience over the course of 36 hours?
               </p>
-              <p className="font-weight-bold branding-orange"><i>Gamification in UX</i></p>
+              <p className="font-weight-bold branding-orange m-b-6">Gamification in UX</p>
               <p>
                 User experience is everything in games. Let’s see how we can extend that experience outside of the gaming industry. How might we utilize the rewarding aspects of gamification to improve product and service offerings?
               </p>
