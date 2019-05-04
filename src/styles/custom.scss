@@ -19,6 +19,7 @@ h6 {
 
 p {
   letter-spacing: 0.05rem;
+  color: white;
 }
 blockquote {
   border-left: 4px solid white;
@@ -166,4 +167,8 @@ a {
 
 .orange {
   color: $orange;
+}
+
+.branding-orange {
+  color: $brand-orange
 }

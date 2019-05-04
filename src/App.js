@@ -59,8 +59,18 @@ function App() {
           <section id="themes" className="pageThemes">
             <h1>Themes</h1>
             <div className="w-800p margin-center">
-              <h4 className="p-header orange">Themes at Version Alpha</h4>
-              <p></p>
+              <p className="font-weight-bold branding-orange"><i>Innovating the Gaming Industry</i></p>
+              <p>
+                Outside of games, a variety of software and technology exists for gaming enthusiasts. Platforms like Twitch or Discord provide streaming and communication capabilities to hundreds of millions of users across the globe. Shared marketplaces have made games available and more accessible across a variety of platforms. How might we innovate the products and services around games to make games more inclusive of and accessible to everyone?
+              </p>
+              <p className="font-weight-bold branding-orange"><i>Game Development</i></p>
+              <p>
+                Developers, designers, artists, and playtesters all share a common interest in pushing the creative boundaries of game development. Whether you work on the biggest franchises or small indie games, prototyping is a valuable and important part of the build process. How might we prototype an innovative game experience over the course of 36 hours?
+              </p>
+              <p className="font-weight-bold branding-orange"><i>Gamification in UX</i></p>
+              <p>
+                User experience is everything in games. Let’s see how we can extend that experience outside of the gaming industry. How might we utilize the rewarding aspects of gamification to improve product and service offerings?
+              </p>
             </div>
           </section>
         </div>
