@@ -11,6 +11,7 @@ import { BrowserRouter as Router,
 import './styles/custom.scss';
 import GlobalNavBar from './components/globalnavbar';
 import Button from "reactstrap/es/Button";
+import FAQ from './components/faq';
 
 function App() {
   return (
@@ -73,6 +74,10 @@ function App() {
               </p>
             </div>
           </section>
+          <img src="https://cdn.weareasterisk.com/hackathon-assets/versionalpha/logos/VA_Logo_MarkWhite.svg" className="img-fluid image-center break-image-small"/>
+          
+          <FAQ/>
+          
         </div>
       </div>
     </Router>
