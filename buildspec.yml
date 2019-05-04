@@ -1,0 +1,15 @@
+version: 0.2
+env:
+  variables:
+    NODE_ENV: production
+phases:
+  install:
+    commands:
+      - "npm install --production"
+  build:
+    commands:
+      - "npm run build"
+  post_build:
+    commands:
+      - "aws s3 sync ./build/ s3://version-alpha-staging --delete --exclude .git/ --exclude .gitignore"
+#      - aws cloudfront create-invalidation --distribution-id EVU6YSUZUQSXL --paths "/*"
