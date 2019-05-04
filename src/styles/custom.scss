@@ -40,6 +40,13 @@ a {
   color: white;
 }
 
+.jumptarget::before {
+  content:"";
+  display:block;
+  height: 55px;
+  margin: -55px 0 0;
+}
+
 .pageHome {
   padding-top: 125px;
   text-align: center;
@@ -182,3 +189,4 @@ a {
 .branding-orange {
   color: $brand-orange
 }
+

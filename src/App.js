@@ -28,7 +28,7 @@ function App() {
         <Switch>
           <Route path="/live" component={() => { window.location = 'https://live.weareasterisk.com/versionalpha19'; return null;} } />
         </Switch>
-        <div className="w-100 p-top-50">
+        <div className="w-100">
           <section id="home" className="pageHome">
             <img src="https://cdn.weareasterisk.com/hackathon-assets/versionalpha/logos/VA_Logo_LockUpWhite.svg" className="img-fluid image-center va-logo"/>
             <h3 className="p-top-50 orange"><i>"Reimagining the Future of Gaming"</i></h3>
@@ -39,7 +39,7 @@ function App() {
             <Button className="skeletonButton">REGISTER</Button>
           </section>
           <img src="https://cdn.weareasterisk.com/hackathon-assets/versionalpha/artwork/VA_Controller_v1-min.png" className="img-fluid image-center controller-art"/>
-          <section id="about" className="pageAbout">
+          <section id="about" className="pageAbout jumptarget">
             <h1>About</h1>
             <div className="w-800p margin-center container-fluid">
               <h4 className="p-header orange">A gaming-focused hackathon experience like no other</h4>
@@ -56,7 +56,7 @@ function App() {
             </div>
           </section>
           <img src="https://cdn.weareasterisk.com/hackathon-assets/versionalpha/logos/VA_Logo_MarkWhite.svg" className="img-fluid image-center break-image"/>
-          <section id="themes" className="pageThemes">
+          <section id="themes" className="pageThemes jumptarget">
             <h1>Themes</h1>
             <div className="w-800p margin-center container-fluid">
               <p className="font-weight-bold branding-orange m-b-6">Innovating the Gaming Industry</p>
