@@ -41,7 +41,7 @@ function App() {
           <img src="https://cdn.weareasterisk.com/hackathon-assets/versionalpha/artwork/VA_Controller_v1-min.png" className="img-fluid image-center controller-art"/>
           <section id="about" className="pageAbout">
             <h1>About</h1>
-            <div className="w-800p margin-center">
+            <div className="w-800p margin-center container-fluid">
               <h4 className="p-header orange">A gaming-focused hackathon experience like no other</h4>
               <p className="speech">
                 Version Alpha is Dallas’s first gaming-focused hackathon hosted in the middle of <a href="https://dreamhack.com/dallas/">DreamHack Dallas</a>, a three-day event with everything gaming under one roof. [Asterisk] is proud to partner with DreamHack to bring together the best elements of hackathons and gaming in a high powered weekend full of building, prototyping, and epic gg’s.
@@ -58,7 +58,7 @@ function App() {
           <img src="https://cdn.weareasterisk.com/hackathon-assets/versionalpha/logos/VA_Logo_MarkWhite.svg" className="img-fluid image-center break-image"/>
           <section id="themes" className="pageThemes">
             <h1>Themes</h1>
-            <div className="w-800p margin-center">
+            <div className="w-800p margin-center container-fluid">
               <p className="font-weight-bold branding-orange"><i>Innovating the Gaming Industry</i></p>
               <p>
                 Outside of games, a variety of software and technology exists for gaming enthusiasts. Platforms like Twitch or Discord provide streaming and communication capabilities to hundreds of millions of users across the globe. Shared marketplaces have made games available and more accessible across a variety of platforms. How might we innovate the products and services around games to make games more inclusive of and accessible to everyone?
