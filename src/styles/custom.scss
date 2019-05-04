@@ -27,12 +27,24 @@ blockquote {
 }
 
 a {
-  color: white!important;
-  font-weight: 600;
+  color: white;
   text-underline: white;
   text-underline-mode: white;
+  font-weight: normal;
 }
 
+footer {
+  margin-top: 4rem;
+}
+
+.copyright {
+  height: 45px;
+  padding-top: 10px;
+  padding-left: 89px;
+  color: $lightgrey;
+  font-size: 0.8rem;
+  letter-spacing: 0.07rem;
+}
 
 .navbar, .navbar-collapse {
   background-color: black!important;
@@ -61,10 +73,23 @@ a {
 
 }
 
+.bg-darkgrey {
+  background-color: $darkgrey;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-asterisk-logo {
+  background: url("//cdn.weareasterisk.com/logos/svg/logo-white-min.svg") center center no-repeat;
+  background-size: contain;
+}
+
 .navLogo {
   height: 100%;
   width: 50px;
-  background: transparent url("https://cdn.weareasterisk.com/hackathon-assets/versionalpha/logos/VA_Logo_MarkRGB.svg") center center no-repeat;
+  background: transparent url("//cdn.weareasterisk.com/hackathon-assets/versionalpha/logos/VA_Logo_MarkRGB.svg") center center no-repeat;
   background-size: contain;
 }
 
@@ -98,6 +123,18 @@ a {
 .nav-link:hover {
   padding-bottom: 4px!important;
   border-bottom: 4px solid white;
+}
+
+.footer-logo {
+  min-height: 59px;
+  background: transparent url("//cdn.weareasterisk.com/logos/svg/logo-white-min.svg") center center no-repeat;
+  background-size: contain;
+}
+
+.footer-text {
+  font-size: .85rem;
+  font-weight: lighter;
+  line-height: 1.15rem;
 }
 
 .image-center {
@@ -142,12 +179,36 @@ a {
   padding-top: 50px;
 }
 
+.p-t-75 {
+  padding-top: 75px;
+}
+
 .p-b-6 {
   padding-bottom: 6px;
 }
 
+.p-b-30 {
+  padding-bottom: 30px;
+}
+
+.m-r-72 {
+  margin-right: 72px!important;
+}
+
 .m-b-6 {
   margin-bottom: 6px;
+}
+
+.m-b-2 {
+  margin-bottom: 2px;
+}
+
+.m-t-32 {
+  margin-top: 36px!important;
+}
+
+.-m-r-20 {
+  margin-right: -20px;
 }
 
 .skeletonButton {
@@ -181,6 +242,23 @@ a {
   max-width: 600px;
 }
 
+.w-250p {
+  width: 250px;
+}
+
+.w-200p {
+  width: 200px!important;
+}
+
+.w-200p-max {
+  max-width: 200px!important;
+}
+
+.h-80p-min {
+  min-height: 80px;
+  height: auto;
+}
+
 .hyphenate {
   hyphens: auto;
 }
@@ -194,6 +272,10 @@ a {
   margin: 0 auto;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .p-header {
   margin-top: 2rem;
   margin-bottom: 1rem;
@@ -201,6 +283,10 @@ a {
 
 .orange {
   color: $orange;
+}
+
+.orange:hover {
+  color: darkorange;
 }
 
 .branding-orange {
@@ -225,7 +311,7 @@ START FAQ STYLINGS
   padding: .5em; // add padding to help with hover shadow.
   border-radius: 8px;
   &:hover {
-    background-color: #2b2828 
+    background-color: #2b2828
     // FIX this color later! - and basically all of the hover affects here.
   }
 }
