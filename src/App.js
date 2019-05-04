@@ -2,14 +2,15 @@ import React from 'react';
 import GoogleFontLoader from 'react-google-font-loader';
 
 import { BrowserRouter as Router,
-  Route,
-  Switch,
-  Redirect,
-  Link
+Route,
+Switch,
+Redirect,
+Link
 } from 'react-router-dom';
 
 import './styles/custom.scss';
 import GlobalNavBar from './components/globalnavbar';
+import GlobalFooter from './components/globalfooter';
 import Button from "reactstrap/es/Button";
 
 function App() {
@@ -23,8 +24,8 @@ function App() {
           }
         ]}
       />
+      <GlobalNavBar/>
       <div className="App">
-        <GlobalNavBar/>
         <Switch>
           <Route path="/live" component={() => { window.location = 'https://live.weareasterisk.com/versionalpha19'; return null;} } />
         </Switch>
@@ -75,6 +76,7 @@ function App() {
           </section>
         </div>
       </div>
+      <GlobalFooter/>
     </Router>
   );
 }
