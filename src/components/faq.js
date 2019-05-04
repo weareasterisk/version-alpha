@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import ReactHtmlParser, { processNodes, convertNodeToElement, htmlparser2 } from 'react-html-parser';
+
 
 import faqData from './faqsData'
 
@@ -52,7 +54,7 @@ export default class FAQ extends Component {
           <div className="w-600p margin-center container-fluid faq-content">
             <h1 className="faq-header">FAQ</h1>
             <p className="font-weight-bold branding-orange m-b-6 faq-question"> {question} </p>
-            <p className="pre-formatted" >  {questionText} </p>
+            {ReactHtmlParser(questionText)}
           </div>
         </div>
       </section>
