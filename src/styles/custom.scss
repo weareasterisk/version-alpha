@@ -1,0 +1,43 @@
+@import './_colors.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+body {
+  background-color: $darkgrey!important;
+}
+
+.navbar {
+  background-color: $darkgrey;
+  height: 50px;
+  color: $orange;
+}
+
+.pageHome {
+  height: 500px;
+  background-color: $darkgrey;
+}
+
+.pointDown {
+  height: 600px;
+  width: 600px;
+  transform: rotate(45deg);
+  background-color: $grey;
+  display: table;
+  margin: -310px auto;
+
+}
+
+.pointDownWrapper {
+
+}
+
+.navLogo {
+  height: 100%;
+  width: 50px;
+  background: transparent url("https://cdn.weareasterisk.com/hackathon-assets/versionalpha/logos/VA_Logo_MarkRGB.svg") center center no-repeat;
+  background-size: contain;
+}
+
+.nav-item {
+  height: 50px;
+}
+

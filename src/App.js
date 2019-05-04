@@ -1,25 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import ExternalRedirect from './components/externalredirect';
+
+import { BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+  Link
+} from 'react-router-dom';
+
+import './styles/custom.scss';
+import GlobalNavBar from './components/globalnavbar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <GlobalNavBar/>
+        <Switch>
+          <Route path="/live" component={() => { window.location = 'https://live.weareasterisk.com/versionalpha19'; return null;} } />
+        </Switch>
+        <div className="w-100">
+          <div className="pageHome">
+            <h1 className="text-center text-white">Version Alpha</h1>
+          </div>
+        </div>
+      </div>
+    </Router>
   );
 }
 
