@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {
+  Nav,
   Navbar,
   NavbarToggler,
   NavItem,
@@ -24,12 +25,26 @@ export default class GlobalNavBar extends Component {
   }
   render() {
     return(
-      <Navbar className="navbar" expand="md" dark>
+      <Navbar className="navbar" expand="md" dark fixed="top">
         <NavbarToggler onClick={this.toggle} />
-        <Collapse isOpen={this.state.isOpen} navbar>
-          <NavItem>
-            <NavLink>whomst</NavLink>
-          </NavItem>
+        <Collapse isOpen={this.state.isOpen} navbar className="nav-center justify-content-center">
+          <Nav navbar>
+            <NavItem>
+              <NavLink href="#home">HOME</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink>HOME</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink>HOME</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink>HOME</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink>HOME</NavLink>
+            </NavItem>
+          </Nav>
 
         </Collapse>
       </Navbar>

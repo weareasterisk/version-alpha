@@ -2,28 +2,51 @@
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
 body {
-  background-color: $darkgrey!important;
+  background-color: black!important;
+  color: white;
 }
 
-.navbar {
-  background-color: $darkgrey;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+p {
+  letter-spacing: 0.05rem;
+}
+blockquote {
+  border-left: 4px solid white;
+  padding-left: 0.5rem;
+}
+
+a {
+  color: white!important;
+  font-weight: 600;
+  text-underline: white;
+  text-underline-mode: white;
+}
+
+
+.navbar, .navbar-collapse {
+  background-color: black!important;
   height: 50px;
-  color: $orange;
+  color: white;
 }
 
 .pageHome {
-  height: 500px;
-  background-color: $darkgrey;
+  padding-top: 125px;
+  text-align: center;
+  color: white;
 }
 
-.pointDown {
-  height: 600px;
-  width: 600px;
-  transform: rotate(45deg);
-  background-color: $grey;
-  display: table;
-  margin: -310px auto;
-
+.pageAbout {
+  color: white;
 }
 
 .pointDownWrapper {
@@ -39,5 +62,108 @@ body {
 
 .nav-item {
   height: 50px;
+  text-align: center;
 }
 
+.nav-center {
+  text-align: center;
+  align-items: center;
+}
+
+.navbar-collapse {
+  background: $darkgrey;
+}
+
+.nav-link {
+  text-transform: uppercase!important;
+  margin-top: 2px;
+  color: white!important;
+  font-weight: 600;
+}
+
+.nav-link:active {
+  padding-bottom: 4px!important;
+  border-bottom: 4px solid white;
+}
+
+.nav-link:hover {
+  padding-bottom: 4px!important;
+  border-bottom: 4px solid white;
+}
+
+.image-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.controller-art {
+  width: 700px;
+}
+
+.va-logo {
+  width: 600px;
+}
+
+.break-image {
+  margin-top: 4rem;
+  width: 150px;
+  margin-bottom: 4rem;
+}
+
+
+.description-block {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.description-item {
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.08rem;
+  font-size: 1.18rem;
+}
+
+.p-top-40 {
+  padding-top: 50px;
+}
+
+.skeletonButton {
+  background-color: transparent!important;
+  -webkit-border-radius: 0!important;
+  -moz-border-radius: 0!important;
+  border-radius: 0!important;
+  border: 2px solid white!important;
+  font-weight: 600!important;
+}
+
+.skeletonButton:hover {
+  background-color: $orange!important;
+  color: black!important;
+  border: 2px solid $orange!important;
+}
+
+.w-800p {
+  width: 800px;
+}
+
+.hyphenate {
+  hyphens: auto;
+}
+
+.speech {
+  font-size: 1.06rem;
+  text-align: justify;
+}
+
+.margin-center {
+  margin: 0 auto;
+}
+
+.p-header {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.orange {
+  color: $orange;
+}
