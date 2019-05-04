@@ -1,9 +1,9 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "VA Site",
+  "name": "Version Alpha Website",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "//cdn.weareasterisk.com/hackathon-assets/versionalpha/logos/VA_Logo_MarkRGB-square.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }
