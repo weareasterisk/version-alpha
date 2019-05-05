@@ -13,7 +13,7 @@ export default class GlobalFooter extends Component {
       <footer className="bg-darkgrey">
         <Container className="container p-t-75 p-b-30">
           <Row className="justify-content-center">
-            <Col md="3">
+            <Col md="3" xs="8">
               <div className="h-auto w-100">
                 <a href="https://weareasterisk.com/"><div className="h-auto w-100 footer-logo" /></a>
                 <p className="footer-text">We are dedicated to bringing people together through the power of shared experiences.</p>
