@@ -2,7 +2,7 @@
    * faq object shape
    * {
    *  question: '',
-   *  questionText: '',
+   *  questionText: `<HTML>`,
    * }
    */
 

@@ -1,6 +1,8 @@
 import Button from "reactstrap/es/Button";
 import FAQ from "./faq";
+import FAQMobile from './faqMedia';
 import React, {Component} from "react";
+import Media from 'react-media';
 
 import * as typeformEmbed from '@typeform/embed';
 
@@ -71,7 +73,18 @@ export default class HomePage extends Component {
           </section>
           <img src="https://cdn.weareasterisk.com/hackathon-assets/versionalpha/logos/VA_Logo_MarkWhite.svg" className="img-fluid image-center break-image-small"/>
           {/* IMPORT FAQ */}
-          <FAQ/>
+          <section id="faq" className="jumptarget">
+            <Media
+              query="(max-width: 762px)">
+              {matches =>
+                matches ? (
+                  <FAQMobile/>
+                ) : (
+                  <FAQ/>
+                )
+              }
+            </Media>
+          </section>
           {/* ########## */}
         </div>
       </div>

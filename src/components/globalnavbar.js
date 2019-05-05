@@ -43,13 +43,14 @@ export default class GlobalNavBar extends Component {
       && !t.classList.contains('navbar-toggler')
       && !t.classList.contains('nav-item')
       && !t.classList.contains('navbar-nav')
-      && !t.classList.contains('nav-link')) {
+      && !t.classList.contains('nav-link')
+      && !t.classList.contains('navbar-toggler')) {
       this.close();
     }
   }
   render() {
     return(
-      <Navbar className="navbar" expand="md" dark color="black" fixed="top" full>
+      <Navbar className="navbar" expand="md" dark color="black" sticky="top" full={true}>
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar className="nav-center justify-content-center">
           <Nav navbar>
