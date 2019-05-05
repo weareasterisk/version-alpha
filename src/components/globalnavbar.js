@@ -44,7 +44,7 @@ export default class GlobalNavBar extends Component {
       && !t.classList.contains('nav-item')
       && !t.classList.contains('navbar-nav')
       && !t.classList.contains('nav-link')
-      && !t.classList.contains('navbar-toggler')) {
+      && !t.classList.contains('navbar-toggler-icon')) {
       this.close();
     }
   }
