@@ -19,7 +19,7 @@ export default class GlobalFooter extends Component {
                 <p className="footer-text -m-r-20">We are dedicated to bringing people together through the power of shared experiences.</p>
               </div>
             </Col>
-            <Col md="3">
+            <Col md="3" xs="6">
               <div className="h-auto w-100">
                 <p className="footer-text font-weight-bold m-b-2">
                   <b>Get in touch</b>
@@ -39,8 +39,9 @@ export default class GlobalFooter extends Component {
                   </a>
                 </p>
               </div>
+              <br/>
             </Col>
-            <Col md="2">
+            <Col md="2" xs="6">
               <div className="h-auto w-100">
                 <p className="footer-text font-weight-bold m-b-6">
                   <a className="text-white" href="#home">Home</a>
