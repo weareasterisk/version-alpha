@@ -8,19 +8,6 @@ import * as typeformEmbed from '@typeform/embed';
 import {Col, Row} from "reactstrap";
 
 export default class HomePage extends Component {
-  componentDidMount() {
-    const popup = typeformEmbed.makePopup(
-      'https://architech-inc.typeform.com/to/uTc3t7',
-      {
-        mode: 'popup',
-        hideHeaders: true,
-        onSubmit: () => {popup.close()}
-      }
-    );
-    document.getElementById("reg-button").addEventListener('click',() => {
-      popup.open();
-    })
-  }
 
   render() {
     return (
@@ -33,7 +20,7 @@ export default class HomePage extends Component {
               <p className="description-item">May 31 - Jun 2, 2019</p>
               <p className="description-item">Kay Bailey Hutchison Center | Dallas, TX</p>
             </div>
-            <Button className="skeletonButton" id="reg-button">PRE-REGISTER</Button>
+            <Button className="skeletonButton" href="/register">REGISTER</Button>
 
           </section>
           <img src="https://cdn.weareasterisk.com/hackathon-assets/versionalpha/artwork/VA_Controller_v1-min.png" className="img-fluid image-center controller-art"/>
@@ -42,7 +29,7 @@ export default class HomePage extends Component {
             <div className="w-800p margin-center container-fluid">
               <h4 className="p-header orange">A gaming-focused hackathon experience like no other</h4>
               <p className="speech">
-                Version Alpha is Dallas’s first gaming-focused hackathon hosted in the middle of <a className="branding-orange" href="https://dreamhack.com/dallas/" target="_blank"><b>DreamHack Dallas</b></a>, a three-day event with everything gaming under one roof. <a className="branding-orange" href="https://weareasterisk.com/" target="_blank"><b>Asterisk</b></a> is proud to partner with DreamHack to bring together the best elements of hackathons and gaming in a high powered weekend full of building, prototyping, and epic gg’s.
+                Version Alpha is Dallas’s first gaming-focused hackathon hosted in the middle of <a className="branding-orange" href="https://dreamhack.com/dallas/" target="_blank" rel="noopener noreferrer" ><b>DreamHack Dallas</b></a>, a three-day event with everything gaming under one roof. <a className="branding-orange" href="https://weareasterisk.com/" target="_blank"><b>Asterisk</b></a> is proud to partner with DreamHack to bring together the best elements of hackathons and gaming in a high powered weekend full of building, prototyping, and epic gg’s.
                 <br/>
                 <br/>
                 Over the last decade, few industries have accelerated like that of gaming and esports. New paradigms are being introduced in every game that is produced. Technology has allowed us to push the boundaries of games and their development to new horizons. On the flip side, gaming has contributed a lot to the way we develop new technology. Version Alpha aims to push the boundaries of innovation: gaming and otherwise! For one weekend, a diverse group will collaborate on ideating, prototyping, and exploring the future of tomorrow.
@@ -51,7 +38,7 @@ export default class HomePage extends Component {
               <p className="speech">
                 DreamHack is the ultimate gaming lifestyle festival. As part of DreamHack Dallas, all Version Alpha attendees get a three-day festival pass, providing access to the entire festival including all of its shows, speaking events, LAN and watch parties, and more.
               </p>
-              <p><a className="branding-orange" href="https://dreamhack.com/dallas" target="_blank"> + Learn more about DreamHack</a></p>
+              <p><a className="branding-orange" href="https://dreamhack.com/dallas" target="_blank" rel="noopener noreferrer" > + Learn more about DreamHack</a></p>
             </div>
           </section>
           <img src="https://cdn.weareasterisk.com/hackathon-assets/versionalpha/logos/VA_Logo_MarkWhite.svg" className="img-fluid image-center break-image-small"/>
@@ -94,21 +81,25 @@ export default class HomePage extends Component {
             <div className="w-800p margin-center container-fluid h-100 justify-content-center">
               <Row className="justify-content-center">
                 <Col sm="4" xs="6">
-                  <div className="h-200p-min">
-                    <a href="https://www.dallaschamber.org/" target="_blank">
-                      <img src="https://cdn.weareasterisk.com/hackathon-assets/partners/dallas-chamber.png" className="img-fluid image-center partners-image"/>
+                  <div className="vertical-center-image">
+                    <a href="https://www.dallaschamber.org/" target="_blank" rel="noopener noreferrer" >
+                      <img src="https://cdn.weareasterisk.com/hackathon-assets/partners/dallas-chamber.png" className="image-center partners-image"/>
                     </a>
                   </div>
                 </Col>
                 <Col sm="4" xs="6">
-                  <a href="https://www.dallaschamber.org/" target="_blank">
-                    <img src="https://cdn.weareasterisk.com/hackathon-assets/partners/dreamhack.png" className="img-fluid image-center partners-image m-t-32"/>
-                  </a>
+                  <div className="vertical-center-image">
+                    <a href="https://www.dallaschamber.org/" target="_blank" rel="noopener noreferrer" >
+                      <img src="https://cdn.weareasterisk.com/hackathon-assets/partners/dreamhack.png" className="image-center partners-image"/>
+                    </a>
+                  </div>
                 </Col>
                 <Col sm="4" xs="6">
-                  <a href="https://www.igda.org/" target="_blank">
-                    <img src="https://cdn.weareasterisk.com/hackathon-assets/partners/igda.png" className="img-fluid image-center partners-image"/>
-                  </a>
+                  <div className="vertical-center-image">
+                    <a href="https://www.igda.org/" target="_blank" rel="noopener noreferrer" >
+                      <img src="https://cdn.weareasterisk.com/hackathon-assets/partners/IGDA-Logo-Short-withR.png" className="image-center partners-image"/>
+                    </a>
+                  </div>
                 </Col>
               </Row>
             </div>

@@ -10,6 +10,7 @@ import './styles/custom.scss';
 import GlobalNavBar from './components/globalnavbar';
 import GlobalFooter from './components/globalfooter';
 import HomePage from './components/homepage';
+import SignupForm from './components/typeform';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
 
       <Switch>
         <Route exact path="/" component={HomePage}/>
+        <Route exact path="/register" component={SignupForm}/>
         <Route exact path="/live" component={() => { window.location = 'https://live.weareasterisk.com/versionalpha19'; return null;} } />
       </Switch>
 

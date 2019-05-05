@@ -34,7 +34,7 @@ const data = [
   {
     question: "How do I get to Version Alpha? Parking instructions?",
     questionText:
-      `<p>Version Alpha will take place at Kay Bailey Hutchison Convention Center. The address is 650 S Griffin St, Dallas, TX 75202. The DART Convention Center stop, accessible via the Red and Blue lines on the DART light rail, is conveniently located at street level directly beneath the building. Parking is also available at the convention center. Find more information <a href="http://www.dallasconventioncenter.com/attendees/transportation-and-parking" class="orange" target="_blank">here</a> on parking and transportation.</p>`,
+      `<p>Version Alpha will take place at Kay Bailey Hutchison Convention Center. The address is 650 S Griffin St, Dallas, TX 75202. The DART Convention Center stop, accessible via the Red and Blue lines on the DART light rail, is conveniently located at street level directly beneath the building. Parking is also available at the convention center. Find more information <a href="http://www.dallasconventioncenter.com/attendees/transportation-and-parking" class="orange" target="_blank" rel="noopener noreferrer" >here</a> on parking and transportation.</p>`,
   },
   {
     question: "Eating… is that a thing here?",
@@ -44,7 +44,7 @@ const data = [
   {
     question: "What about hardware?",
     questionText:
-      `<p>Yes! We will have plenty of hardware including Raspberry Pis, Arduinos, VR headsets, various IoT devices, sensors, and electronic components. A more comprehensive list can be found <a href="https://airtable.com/shrNKqGSZISp2bCMV" class="branding-orange" target="_blank">here!</a></p>`,
+      `<p>Yes! We will have plenty of hardware including Raspberry Pis, Arduinos, VR headsets, various IoT devices, sensors, and electronic components. A more comprehensive list can be found <a href="https://airtable.com/shrNKqGSZISp2bCMV" class="branding-orange" target="_blank" rel="noopener noreferrer" >here!</a></p>`,
   },
   {
     question: "What should I bring?",
@@ -77,17 +77,17 @@ const data = [
   {
     question: "What else can I do at DreamHack Dallas 2019?",
     questionText:
-      `<p>There are a ton of other cool things to check out at DreamHack - <a href="https://dreamhack.com/dallas/activities/" class="branding-orange" target="_blank">check out this list!</a></p>`,
+      `<p>There are a ton of other cool things to check out at DreamHack - <a href="https://dreamhack.com/dallas/activities/" class="branding-orange" target="_blank" rel="noopener noreferrer" >check out this list!</a></p>`,
   },
   {
     question: "What if I already have a ticket to DreamHack?",
     questionText:
-      `<p>If you've already purchased an equivalent 3-day festival pass, please <a href="mailto:hello@weareasterisk.com" target="_blank">send us</a> an email before you sign up for Version Alpha with evidence of your ticket purchase (i.e. the receipt). We will provide you with a unique code to bypass the payment step of registration.</p>`,
+      `<p>If you've already purchased an equivalent 3-day festival pass, please <a href="mailto:hello@weareasterisk.com" target="_blank" rel="noopener noreferrer" >send us</a> an email before you sign up for Version Alpha with evidence of your ticket purchase (i.e. the receipt). We will provide you with a unique code to bypass the payment step of registration.</p>`,
   },
   {
     question: "What if this FAQ doesn’t answer my question?",
     questionText:
-      `<p>Send us an email at <a href="mailto:hello@weareasterisk.com" class="branding-orange" target="_blank">hello@weareasterisk.com</a> and we’ll get back to you!</p>`,
+      `<p>Send us an email at <a href="mailto:hello@weareasterisk.com" class="branding-orange" target="_blank" rel="noopener noreferrer" >hello@weareasterisk.com</a> and we’ll get back to you!</p>`,
   },
 ];
 
