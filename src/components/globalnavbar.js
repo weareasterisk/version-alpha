@@ -69,9 +69,9 @@ export default class GlobalNavBar extends Component {
             <NavItem>
               <NavLink onClick={this.close} href="/#partners">PARTNERS</NavLink>
             </NavItem>
-            <NavItem>
+{/*            <NavItem>
               <NavLink onClick={this.close} href="/#sponsors">SPONSORS</NavLink>
-            </NavItem>
+            </NavItem>*/}
           </Nav>
         </Collapse>
       </Navbar>
