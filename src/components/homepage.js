@@ -92,22 +92,22 @@ export default class HomePage extends Component {
             <h1>Partners</h1>
             <br/>
             <div className="w-800p margin-center container-fluid h-100 justify-content-center">
-              <Row>
-                <Col sm="4" className="justify-content-center">
+              <Row className="justify-content-center">
+                <Col sm="4" xs="6">
                   <div className="h-200p-min">
                     <a href="https://www.dallaschamber.org/" target="_blank">
-                      <img src="https://cdn.weareasterisk.com/hackathon-assets/partners/dallas-chamber.png" className="img-fluid image-center partners-image margin-center h-200p-max w-auto w-200p-max"/>
+                      <img src="https://cdn.weareasterisk.com/hackathon-assets/partners/dallas-chamber.png" className="img-fluid image-center partners-image"/>
                     </a>
                   </div>
                 </Col>
-                <Col sm="4" className="h-200p-min">
+                <Col sm="4" xs="6">
                   <a href="https://www.dallaschamber.org/" target="_blank">
-                    <img src="https://cdn.weareasterisk.com/hackathon-assets/partners/dreamhack.png" className="img-fluid image-center partners-image margin-center h-200p-max w-auto w-200p-max m-t-32"/>
+                    <img src="https://cdn.weareasterisk.com/hackathon-assets/partners/dreamhack.png" className="img-fluid image-center partners-image m-t-32"/>
                   </a>
                 </Col>
-                <Col sm="4" className="h-200p-min">
+                <Col sm="4" xs="6">
                   <a href="https://www.igda.org/" target="_blank">
-                    <img src="https://cdn.weareasterisk.com/hackathon-assets/partners/IGDA.png" className="img-fluid image-center partners-image margin-center h-200p-max w-auto w-200p-max p-16"/>
+                    <img src="https://cdn.weareasterisk.com/hackathon-assets/partners/igda.png" className="img-fluid image-center partners-image"/>
                   </a>
                 </Col>
               </Row>

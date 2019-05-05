@@ -52,7 +52,7 @@ const data = [
       `<p><u>Please bring a valid, government-issued ID</u> (i.e. driver’s license, passport, national ID card, birth certificate, etc). You will need that to get in. Laptops, chargers, cell phones, and of course passion are helpful. Other useful items include toiletries, a change of clothes, a pillow, some earplugs, an eye mask, a jacket, and... deodorant. Please, bring deodorant.
        <br/> 
        <br/> 
-       Knives, firearms, and other dangerous things are not permitted at this event. If you could win a round CS:GO with it, you shouldn’t bring it… </p>`,
+       Knives, firearms, and other dangerous things are not permitted at this event. If you could win a round of CS:GO with it, you shouldn’t bring it. </p>`,
   },
   {
     question: "Are there travel reimbursements?",
@@ -82,7 +82,7 @@ const data = [
   {
     question: "What if I already have a ticket to DreamHack?",
     questionText:
-      `<p>If you've already purchased an equivalent 3-day festival pass, please send us an email before you sign up for Version Alpha with evidence of your ticket purchase (i.e. the receipt). We will provide you with a unique code to bypass the payment step of registration.</p>`,
+      `<p>If you've already purchased an equivalent 3-day festival pass, please <a href="mailto:hello@weareasterisk.com" target="_blank">send us</a> an email before you sign up for Version Alpha with evidence of your ticket purchase (i.e. the receipt). We will provide you with a unique code to bypass the payment step of registration.</p>`,
   },
   {
     question: "What if this FAQ doesn’t answer my question?",

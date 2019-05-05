@@ -50,7 +50,7 @@ export default class GlobalNavBar extends Component {
   }
   render() {
     return(
-      <Navbar className="navbar" expand="md" dark color="black" sticky="top" full={true}>
+      <Navbar className="navbar" expand="md" dark color="black" sticky="top" full="true">
         <NavbarToggler onClick={this.toggle} className="float-right" />
         <Collapse isOpen={this.state.isOpen} navbar className="nav-center justify-content-center">
           <Nav navbar>
