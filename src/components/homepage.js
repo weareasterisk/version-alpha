@@ -31,7 +31,7 @@ export default class HomePage extends Component {
             <h3 className="p-top-50 orange"><i>"Reimagining the Future of Gaming"</i></h3>
             <div className="description-block">
               <p className="description-item">May 31 - Jun 2, 2019</p>
-              <p className="description-item">Kay Bailey Hutchinson Center | Dallas, TX</p>
+              <p className="description-item">Kay Bailey Hutchison Center | Dallas, TX</p>
             </div>
             <Button className="skeletonButton" id="reg-button">PRE-REGISTER</Button>
 
