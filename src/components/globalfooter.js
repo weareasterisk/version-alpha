@@ -14,9 +14,9 @@ export default class GlobalFooter extends Component {
         <Container className="container p-t-75 p-b-30">
           <Row className="justify-content-center">
             <Col md="3">
-              <div className="h-auto w-200p">
+              <div className="h-auto w-100">
                 <a href="https://weareasterisk.com/"><div className="h-auto w-100 footer-logo" /></a>
-                <p className="footer-text -m-r-20">We are dedicated to bringing people together through the power of shared experiences.</p>
+                <p className="footer-text">We are dedicated to bringing people together through the power of shared experiences.</p>
               </div>
             </Col>
             <Col md="3" xs="6">
