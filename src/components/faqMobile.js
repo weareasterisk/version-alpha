@@ -4,6 +4,8 @@ import { Collapse, Button } from 'reactstrap';
 
 import faqData from './faqsData';
 
+import FAQMobileItem from './faqMobileItem';
+
 export default class FAQMobile extends Component {
   state = {
     faqs: faqData
@@ -14,17 +16,12 @@ export default class FAQMobile extends Component {
     return (
       <div className="margin-center container-fluid">
         <h1 className="faq-header">FAQ</h1>
-        <p className="text-center bg-darkgrey speech">Click to Expand</p>
+        <p className="text-center font-weight-ligher speech">Click to Expand</p>
         {
           faqs.map( (faq, i) =>
-          <div>
-            <div className="w-600p margin-center container-fluid faq-content">
-              <p className="font-weight-bold branding-orange m-b-6"> {faq.question} ></p>
-              <Collapse id={`faq-${i}`}>
-                {ReactHtmlParser(faq.questionText)}
-              </Collapse>
-            </div>
-          </div>
+          <FAQMobileItem
+            faq={faq}
+          />
           )
         }
       </div>

@@ -51,7 +51,7 @@ export default class GlobalNavBar extends Component {
   render() {
     return(
       <Navbar className="navbar" expand="md" dark color="black" sticky="top" full={true}>
-        <NavbarToggler onClick={this.toggle} />
+        <NavbarToggler onClick={this.toggle} className="float-right" />
         <Collapse isOpen={this.state.isOpen} navbar className="nav-center justify-content-center">
           <Nav navbar>
             <NavItem>
@@ -73,7 +73,6 @@ export default class GlobalNavBar extends Component {
               <NavLink onClick={this.close} href="/#sponsors">SPONSORS</NavLink>
             </NavItem>
           </Nav>
-
         </Collapse>
       </Navbar>
     )

@@ -13,7 +13,7 @@ export default class GlobalFooter extends Component {
           <Row>
             <Col className="h-100 h-80p-min w-200p w-200p-max m-r-72">
               <div className="h-auto w-200p">
-                <div className="h-auto w-100 footer-logo"/>
+                <a href="https://weareasterisk.com/"><div className="h-auto w-100 footer-logo" /></a>
                 <p className="footer-text -m-r-20">We are dedicated to bringing people together through the power of shared experiences.</p>
               </div>
             </Col>
