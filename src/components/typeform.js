@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import * as typeformEmbed from "@typeform/embed";
+import {Redirect} from "react-router";
 
 export default class SignupForm extends Component {
   componentDidMount() {
@@ -9,8 +10,7 @@ export default class SignupForm extends Component {
           mode: 'drawer_left',
           drawerWidth: 9999,
           hideScrollbars: true,
-          autoOpen: true,
-          onSubmit: () => {popup.close()}
+          autoOpen: true
         }
       );
   }
