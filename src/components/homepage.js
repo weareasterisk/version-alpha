@@ -96,7 +96,7 @@ export default class HomePage extends Component {
                 </Col>
                 <Col sm="4" xs="6">
                   <div className="vertical-center-image">
-                    <a href="https://www.igda.org/" target="_blank" rel="noopener noreferrer" >
+                    <a href="http://www.igdadallas.org/" target="_blank" rel="noopener noreferrer" >
                       <img src="https://cdn.weareasterisk.com/hackathon-assets/partners/igdaDallasLogo.png" className="image-center partners-image"/>
                     </a>
                   </div>
