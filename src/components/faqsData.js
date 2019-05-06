@@ -82,7 +82,7 @@ const data = [
   {
     question: "What if I already have a ticket to DreamHack?",
     questionText:
-      `<p>If you've already purchased an equivalent 3-day festival pass, please <a href="mailto:hello@weareasterisk.com" target="_blank" rel="noopener noreferrer" >send us</a> an email before you sign up for Version Alpha with evidence of your ticket purchase (i.e. the receipt). We will provide you with a unique code to bypass the payment step of registration.</p>`,
+      `<p>If you've already purchased an equivalent 3-day festival pass, please <a href="mailto:hello@weareasterisk.com" target="_blank" rel="noopener noreferrer" class="orange">send us</a> an email before you sign up for Version Alpha with evidence of your ticket purchase (i.e. the receipt). We will provide you with a unique code to bypass the payment step of registration.</p>`,
   },
   {
     question: "What if this FAQ doesn’t answer my question?",
