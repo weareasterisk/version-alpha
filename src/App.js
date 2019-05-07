@@ -1,5 +1,6 @@
 import React from 'react';
 import GoogleFontLoader from 'react-google-font-loader';
+import ReactPixel from 'react-facebook-pixel';
 
 import { BrowserRouter as Router,
 Route,
@@ -13,6 +14,13 @@ import HomePage from './components/homepage';
 import SignupForm from './components/typeform';
 import {Redirect} from "react-router";
 
+const options = {
+  autoConfig: true,
+  debug: false
+};
+ReactPixel.init('618518221959202', options);
+
+ReactPixel.pageView();
 const NotFoundRedirect = () => <Redirect to='/' />;
 
 function App() {
