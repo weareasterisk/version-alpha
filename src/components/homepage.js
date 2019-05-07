@@ -83,7 +83,7 @@ export default class HomePage extends Component {
                 <Col sm="4" xs="6">
                   <div className="vertical-center-image">
                     <a href="https://www.dallaschamber.org/" target="_blank" rel="noopener noreferrer" title="DRC" >
-                      <img src="https://cdn.weareasterisk.com/hackathon-assets/partners/dallas-chamber.png" className="image-center partners-image"/>
+                      <img src="https://cdn.weareasterisk.com/hackathon-assets/partners/DRC_logo.png" className="image-center partners-image"/>
                     </a>
                   </div>
                 </Col>
