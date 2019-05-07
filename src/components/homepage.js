@@ -82,21 +82,21 @@ export default class HomePage extends Component {
               <Row className="justify-content-center">
                 <Col sm="4" xs="6">
                   <div className="vertical-center-image">
-                    <a href="https://www.dallaschamber.org/" target="_blank" rel="noopener noreferrer" >
+                    <a href="https://www.dallaschamber.org/" target="_blank" rel="noopener noreferrer" title="DRC" >
                       <img src="https://cdn.weareasterisk.com/hackathon-assets/partners/dallas-chamber.png" className="image-center partners-image"/>
                     </a>
                   </div>
                 </Col>
                 <Col sm="4" xs="6">
                   <div className="vertical-center-image">
-                    <a href="https://www.dallaschamber.org/" target="_blank" rel="noopener noreferrer" >
+                    <a href="https://dreamhack.com/dallas/" target="_blank" rel="noopener noreferrer" title="dreamhack">
                       <img src="https://cdn.weareasterisk.com/hackathon-assets/partners/dreamhack.png" className="image-center partners-image"/>
                     </a>
                   </div>
                 </Col>
                 <Col sm="4" xs="6">
                   <div className="vertical-center-image">
-                    <a href="http://www.igdadallas.org/" target="_blank" rel="noopener noreferrer" >
+                    <a href="http://www.igdadallas.org/" target="_blank" rel="noopener noreferrer" title="IGDA" >
                       <img src="https://cdn.weareasterisk.com/hackathon-assets/partners/igdaDallasLogo.png" className="image-center partners-image"/>
                     </a>
                   </div>
