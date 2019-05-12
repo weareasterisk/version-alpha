@@ -87,7 +87,11 @@ const data = [
   {
     question: "What if this FAQ doesn’t answer my question?",
     questionText:
-      `<p>Send us an email at <a href="mailto:hello@weareasterisk.com" class="branding-orange" target="_blank" rel="noopener noreferrer" >hello@weareasterisk.com</a> and we’ll get back to you!</p>`,
+      `<p>Send us an email at <a href="mailto:hello@weareasterisk.com" class="branding-orange" target="_blank" rel="noopener noreferrer" >hello@weareasterisk.com</a> and we’ll get back to you!
+       <br/>
+       <br/>
+       <a href="https://dreamhack.com/dallas/info/faq/" class="branding-orange" target="_blank" rel="noopener noreferrer">+ DreamHack FAQ</a>
+      </p>`,
   },
 ];
 
