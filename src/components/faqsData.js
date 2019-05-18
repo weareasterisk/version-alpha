@@ -52,7 +52,15 @@ const data = [
       `<p><u>Please bring a valid, government-issued ID</u> (i.e. driver’s license, passport, national ID card, birth certificate, etc). You will need that to get in. Laptops, chargers, cell phones, and of course passion are helpful. Other useful items include toiletries, a change of clothes, a pillow, some earplugs, an eye mask, a jacket, and... deodorant. Please, bring deodorant.
        <br/> 
        <br/> 
-       Knives, firearms, and other dangerous things are not permitted at this event. If you could win a round of CS:GO with it, you shouldn’t bring it. </p>`,
+       Knives, firearms, and other dangerous things are not permitted at this event. If you could win a round of CS:GO with it, you shouldn’t bring it. Please refer to the links below for more specific restrictions on what is or is not allowed. 
+       <br/>
+       <br/>
+       <a class="orange" href="https://dreamhack.com/article/security-dallas/" target="_blank" rel="noopener noreferrer">+ DreamHack Security</a>
+       <br/>
+       <a class="orange" href="https://dreamhack.com/dallas/info/rules/" target="_blank" rel="noopener noreferrer">+ DreamHack Rules</a>
+       <br/>
+       <a class="orange" href="https://dreamhack.com/dallas/info/faq/" target="_blank" rel="noopener noreferrer">+ DreamHack FAQ</a>
+       </p>`,
   },
   {
     question: "Are there travel reimbursements?",
