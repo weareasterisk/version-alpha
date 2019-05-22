@@ -6,6 +6,7 @@ import Media from 'react-media';
 
 import * as typeformEmbed from '@typeform/embed';
 import {Col, Row} from "reactstrap";
+import Schedule from "./schedule";
 
 export default class HomePage extends Component {
 
@@ -58,6 +59,10 @@ export default class HomePage extends Component {
                 User experience is everything in games. Let’s see how we can extend that experience outside of the gaming industry. How might we utilize the rewarding aspects of gamification to improve product and service offerings?
               </p>
             </div>
+          </section>
+          <img src="https://cdn.weareasterisk.com/hackathon-assets/versionalpha/logos/VA_Logo_MarkWhite.svg" className="img-fluid image-center break-image-small"/>
+          <section id="schedule" className="jumptarget">
+            <Schedule/>
           </section>
           <img src="https://cdn.weareasterisk.com/hackathon-assets/versionalpha/logos/VA_Logo_MarkWhite.svg" className="img-fluid image-center break-image-small"/>
           {/* IMPORT FAQ */}
