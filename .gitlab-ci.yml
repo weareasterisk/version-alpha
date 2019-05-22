@@ -14,7 +14,7 @@ stages:
   - quality
   - build
   - deploy
-  
+
 variables:
 ############# DO NOT EDIT #############
   DOCKER_DRIVER: overlay2             #
@@ -26,20 +26,20 @@ lint-and-test:
     - ls
 #     - npm ci
 #     - npm run ci
-    
+
 build-pack:
   stage: build
   dependencies: []
   script:
     - npm install
-    - npm run build --prod
+    - CI=false npm run build --prod
   artifacts:
     paths:
       - build/
     expire_in: 1d
   only:
     - master
-    
+
 deploy-production:
   image: python:alpine
   stage: deploy
