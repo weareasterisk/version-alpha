@@ -23,8 +23,9 @@ variables:
 lint-and-test:
   stage: quality
   script:
-    - npm ci
-    - npm run ci
+    - ls
+#     - npm ci
+#     - npm run ci
     
 build-pack:
   stage: build
