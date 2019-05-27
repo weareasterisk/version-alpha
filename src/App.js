@@ -42,6 +42,7 @@ function App() {
         <Route exact path="/" component={HomePage}/>
         <Route exact path="/register" component={SignupForm}/>
         <Route exact path="/live" component={() => { window.location = 'https://live.weareasterisk.com/versionalpha19'; return null;} } />
+        <Route exact path="/discord" component={() => { window.location = 'https://discord.gg/7k9hcnC'; return null;} } />
         <Route component={NotFoundRedirect}/>
       </Switch>
 
