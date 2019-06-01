@@ -54,12 +54,12 @@ const dayTwo = {
       time: '5:00 AM - 7:00 AM'
     },
     {
-      event: 'Breakfast Voucher Handout',
+      event: 'Voucher Handout',
       time: '8:00 AM'
     },
     {
-      event: 'Lunch Voucher Handout',
-      time: '12:00 PM'
+      event: 'Game Dev 101 - IGDA',
+      time: '12:00 PM - 1:00 PM'
     },
     {
       event: 'Twitch Emotes Bingo',
@@ -70,8 +70,12 @@ const dayTwo = {
       time: '12:00 PM - 12:00 AM'
     },
     {
-      event: 'Dinner Voucher Handout',
-      time: '6:00 PM'
+      event: 'How to Break into the Gaming Industry',
+      time: '1:00 PM - 2:00 PM'
+    },
+    {
+      event: 'Intro to Gamification - David Fares',
+      time: '2:00 PM - 3:00 PM'
     },
     {
       event: ' Bob Ross MS Paint Part',
