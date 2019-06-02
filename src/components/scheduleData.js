@@ -120,10 +120,6 @@ const dayThree = {
       time: '10:00 AM'
     },
     {
-      event: 'Judging',
-      time: '10:00 AM - 11:30 AM'
-    },
-    {
       event: 'Lunch Voucher Handout',
       time: '11:30 AM'
     },
