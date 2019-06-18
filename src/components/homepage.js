@@ -21,7 +21,8 @@ export default class HomePage extends Component {
               <p className="description-item">May 31 - Jun 2, 2019</p>
               <p className="description-item">Kay Bailey Hutchison Center | Dallas, TX</p>
             </div>
-            <Button className="skeletonButton p-16" href="/register">REGISTER NOW</Button>
+            <p className="description-item">Thanks for coming!</p>
+            <Button className="skeletonButton p-16" href="https://weareasterisk.com/attend">ATTEND MORE</Button>
 
           </section>
           <img src="https://cdn.weareasterisk.com/hackathon-assets/versionalpha/artwork/VA_Controller_v1-min.png" className="img-fluid image-center controller-art"/>
