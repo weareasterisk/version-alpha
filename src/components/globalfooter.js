@@ -89,7 +89,7 @@ export default class GlobalFooter extends Component {
         </Container>
         <div className="bg-black w-100">
           <Container className="bg-black copyright">
-            © 2019 Asterisk Co. All Rights Reserved.
+            © 2019 Asterisk. All Rights Reserved.
           </Container>
         </div>
       </footer>
