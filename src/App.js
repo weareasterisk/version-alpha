@@ -1,6 +1,6 @@
 import React from 'react';
-import GoogleFontLoader from 'react-google-font-loader';
 import ReactPixel from 'react-facebook-pixel';
+import 'typeface-dosis'
 
 import { BrowserRouter as Router,
 Route,
@@ -26,14 +26,6 @@ const NotFoundRedirect = () => <Redirect to='/' />;
 function App() {
   return (
     <Router>
-      <GoogleFontLoader
-        fonts={[
-          {
-            font: 'Dosis',
-            weights: [200, 300, 400, 500, 600, 800]
-          }
-        ]}
-      />
       {/* IMPORT NAVBAR */}
       <GlobalNavBar/>
       {/* ############# */}
