@@ -9,77 +9,49 @@
  * */
 
 const dayOne = {
-  title: "Friday, May 31",
+  title: "Friday, August 7th",
   events: [
     {
-      event: 'DreamHack Doors Open',
-      time: '9:00 AM'
-    },
-    {
-      event: 'V/A Registration & Check-In',
-      time: '6:00 PM - 8:00 PM'
-    },
-    {
       event: 'Opening Ceremony',
-      time: '7:00 PM - 8:00 PM'
+      time: '10:00 AM - 11:00 AM'
     },
     {
-      event: 'Hacking Begins',
-      time: '8:00 PM'
+      event: 'Team Building Session',
+      time: '12:00 PM - 1:00 PM'
     },
     {
-      event: 'Dinner Voucher Handout',
-      time: '8:00 PM'
+      event: '[Game Dev Talk 1] TBA',
+      time: '1:00 PM - 2:00 PM'
     },
     {
-      event: 'Hardware Lab Opens',
-      time: '8:15 PM'
+      event: 'Mentorship Office Hours',
+      time: '3:00 PM - 5:00 PM'
     },
     {
-      event: 'Team Building and Ideation Session',
-      time: '8:15 PM - 9:15 PM'
+      event: '[Game Dev Talk 2] TBA',
+      time: '6:00 PM - 7:00 PM'
     }
   ]
 };
 
 const dayTwo = {
-  title: "Saturday, June 1",
+  title: "Saturday, August 8th",
   events: [
     {
-      event: 'Quiet Hours',
-      time: '2:00 AM - 5:00 AM'
+      event: 'Midnight Mentorship',
+      time: '12:00 AM - 2:00 AM'
     },
     {
-      event: 'Quiet Hours',
-      time: '5:00 AM - 7:00 AM'
+      event: '[Game Dev Talk 3] TBA',
+      time: '11:00 AM - 12:00 PM'
     },
     {
-      event: 'Voucher Handout',
-      time: '8:00 AM'
+      event: 'Mentorship OH',
+      time: '3:00 PM - 5:00 PM'
     },
     {
-      event: 'Game Dev 101 - IGDA',
-      time: '12:00 PM - 1:00 PM'
-    },
-    {
-      event: 'Twitch Emotes Bingo',
-      time: '12:00 PM - 12:00 AM'
-    },
-    {
-      event: 'Picture Scavenger Hunt',
-      time: '12:00 PM - 12:00 AM'
-    },
-    {
-      event: 'How to Break into the Gaming Industry',
-      time: '1:00 PM - 2:00 PM'
-    },
-    {
-      event: 'Intro to Gamification - David Fares',
-      time: '2:00 PM - 3:00 PM'
-    },
-    {
-      event: ' Bob Ross MS Paint Part',
-      time: '10:00 PM - 10:30 PM'
+      event: '[Game Dev Talk 4] TBA',
+      time: '6:00 PM - 7:00 PM'
     },
   ]
 };
@@ -88,56 +60,28 @@ const dayThree = {
   title: "Sunday, June 2",
   events: [
     {
-      event: 'Quiet Hours',
-      time: '2:00 AM - 5:00 AM'
+      event: 'Midnight Mentorship',
+      time: '12:00 AM - 2:00 AM'
     },
     {
-      event: 'Quiet Hours',
-      time: '5:00 AM - 7:00 AM'
+      event: 'How to Submit',
+      time: '8:30 AM - 9:00 AM'
     },
     {
-      event: 'Breakfast Voucher Handout',
-      time: '8:00 AM'
+      event: 'Submission Deadline',
+      time: '9:30 AM'
     },
     {
-      event: 'Play "How to Submit" Video',
-      time: '8:30 AM - 8:45 AM'
+      event: 'Failure Party',
+      time: '10:00 AM - 11:00 AM'
     },
     {
-      event: 'Devpost Submissions Due',
-      time: '9:00 AM'
+      event: 'Judging',
+      time: '10:00 AM - 12:00 PM'
     },
     {
-      event: '"How to Win" Workshop',
-      time: '9:00 AM - 9:30 AM'
-    },
-    {
-      event: 'Hardware Lab Closes',
-      time: '9:45 AM'
-    },
-    {
-      event: 'Hacking Ends',
-      time: '10:00 AM'
-    },
-    {
-      event: 'Lunch Voucher Handout',
-      time: '11:30 AM'
-    },
-    {
-      event: 'Final Pitch Briefing',
-      time: '12:30 PM - 12:45 PM'
-    },
-    {
-      event: 'Final Presentations',
-      time: '1:00 PM - 1:30 PM'
-    },
-    {
-      event: 'Closing Ceremony & Awards',
-      time: '1:45 PM - 2:15 PM'
-    },
-    {
-      event: 'Hardware Return Final Call',
-      time: '2:15 PM - 3:00 PM'
+      event: 'Closing Ceremony',
+      time: '1:00 PM - 2:00 PM'
     }
   ]
 };

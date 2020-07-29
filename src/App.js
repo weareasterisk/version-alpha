@@ -13,6 +13,10 @@ import GlobalFooter from './components/globalfooter';
 import HomePage from './components/homepage';
 import SignupForm from './components/typeform';
 import {Redirect} from "react-router";
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faDoorOpen, faGamepad, faPuzzlePiece, faGhost } from '@fortawesome/free-solid-svg-icons'
+
+library.add(faDoorOpen, faGamepad, faPuzzlePiece, faGhost)
 
 const options = {
   autoConfig: true,
