@@ -4,9 +4,9 @@ import FAQMobile from './faqMobile';
 import React, {Component} from "react";
 import Media from 'react-media';
 
-import * as typeformEmbed from '@typeform/embed';
 import {Col, Row} from "reactstrap";
 import Schedule from "./schedule";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default class HomePage extends Component {
 
@@ -16,51 +16,54 @@ export default class HomePage extends Component {
         <div className="w-100">
           <section id="home" className="pageHome">
             <img src="https://cdn.weareasterisk.com/hackathon-assets/versionalpha/logos/VA_Logo_LockUpWhite.svg" className="img-fluid image-center va-logo"/>
-            <h3 className="p-top-50 orange"><i>"Reimagining the Future of Gaming"</i></h3>
+            <h3 className="p-top-50 orange"><i>"Homebrew"</i></h3>
             <div className="description-block">
-              <p className="description-item">May 31 - Jun 2, 2019</p>
-              <p className="description-item">Kay Bailey Hutchison Center | Dallas, TX</p>
+              <p className="description-item">August 7th - 9th</p>
+              <p className="description-item">The Game Jam of Quakecon at Home</p>
             </div>
-            <p className="description-item">Thanks for coming!</p>
-            <Button className="skeletonButton p-16" href="https://weareasterisk.com/attend">ATTEND MORE</Button>
 
           </section>
           <img src="https://cdn.weareasterisk.com/hackathon-assets/versionalpha/artwork/VA_Controller_v1-min.png" className="img-fluid image-center controller-art"/>
           <section id="about" className="pageAbout jumptarget">
             <h1>About</h1>
             <div className="w-800p margin-center container-fluid">
-              <h4 className="p-header orange">A gaming-focused hackathon experience like no other</h4>
+              <h4 className="p-header orange">THE QUAKECON AT HOME GAME JAM</h4>
               <p className="speech">
-                Version Alpha is Dallas’s first gaming-focused hackathon hosted in the middle of <a className="branding-orange" href="https://dreamhack.com/dallas/" target="_blank" rel="noopener noreferrer" ><b>DreamHack Dallas</b></a>, a three-day event with everything gaming under one roof. <a className="branding-orange" href="https://weareasterisk.com/" target="_blank" rel="noopener noreferrer"><b>Asterisk</b></a> is proud to partner with DreamHack to bring together the best elements of hackathons and gaming in a high powered weekend full of building, prototyping, and epic gg’s.
-                <br/>
-                <br/>
-                Over the last decade, few industries have accelerated like that of gaming and esports. New paradigms are being introduced in every game that is produced. Technology has allowed us to push the boundaries of games and their development to new horizons. On the flip side, gaming has contributed a lot to the way we develop new technology. Version Alpha aims to push the boundaries of innovation: gaming and otherwise! For one weekend, a diverse group will collaborate on ideating, prototyping, and exploring the future of tomorrow.
+               Version Alpha: Homebrew is a free virtual Game Jam hosted with
+               <a href="https://quakecon.bethesda.net/en"> Quakecon at Home</a>, a three-day event hosted yearly, currently online for everyone to participate in. <a href="https://www.weareasterisk.com/">Asterisk</a> is proud to partner with Quakecon at Home to bring together the best elements of gaming and game development in a high powered weekend full of building, prototyping, and (hopefully) Bawls.
+              <br/>
+              <br/>
+              Over the last decade, few industries have accelerated like that of gaming and esports. New paradigms are being introduced in every game that is produced. Technology has allowed us to push the boundaries of games and their development to new horizons. On the flip side, gaming has contributed a lot to the way we develop new technology. Version Alpha: Homebrew aims to push the boundaries of innovation: gaming and otherwise! For one weekend, a diverse group will collaborate on ideating, developing, and exploring the games of tomorrow.
               </p>
-              <h4 className="p-header orange">What is dreamhack?</h4>
+              <h4 className="p-header orange">WHAT IS QUAKECON AT HOME?</h4>
               <p className="speech">
-                DreamHack is the ultimate gaming lifestyle festival. As part of DreamHack Dallas, all Version Alpha attendees get a three-day festival pass, providing access to the entire festival including all of its shows, speaking events, LAN and watch parties, and more.
+              Quakecon is a yearly gaming convention held by ZeniMax Media. It typically includes a bring-your-own-computer LAN party event and a competitive tournament, alongside many other events The 25th Annual QuakeCon will be the first QuakeCon held remotely. As part of Quakecon at Home, participants of Version Alpha: Homebrew are invited to work alongside, and enjoy, the fun events of Quakecon at Home.
+              <br/>
+              <br/>
               </p>
-              <p><a className="branding-orange" href="https://dreamhack.com/dallas" target="_blank" rel="noopener noreferrer" > + Learn more about DreamHack</a></p>
+              <p><a className="branding-orange" href="https://quakecon.bethesda.net/en" target="_blank" rel="noopener noreferrer" > + Learn more about Quakecon at Home</a></p>
             </div>
           </section>
           <img src="https://cdn.weareasterisk.com/hackathon-assets/versionalpha/logos/VA_Logo_MarkWhite.svg" className="img-fluid image-center break-image-small"/>
           <section id="themes" className="pageThemes jumptarget">
             <h1>Themes</h1>
             <div className="w-800p margin-center container-fluid">
-              <p className="font-weight-bold branding-orange m-b-6">Innovating the Gaming Industry</p>
-              <p>
-                Outside of games, a variety of software and technology exists for gaming enthusiasts. Platforms like Twitch or Discord provide streaming and communication capabilities to hundreds of millions of users across the globe. Shared marketplaces have made games available and more accessible across a variety of platforms. How might we innovate the products and services around games to make games more inclusive of and accessible to everyone?
-              </p>
-              <p className="font-weight-bold branding-orange m-b-6">Game Development</p>
-              <p>
-                Developers, designers, artists, and playtesters all share a common interest in pushing the creative boundaries of game development. Whether you work on the biggest franchises or small indie games, prototyping is a valuable and important part of the build process. How might we prototype an innovative game experience over the course of 36 hours?
-              </p>
-              <p className="font-weight-bold branding-orange m-b-6">Gamification in UX</p>
-              <p>
-                User experience is everything in games. Let’s see how we can extend that experience outside of the gaming industry. How might we utilize the rewarding aspects of gamification to improve product and service offerings?
+              <p className="font-weight-bold branding-orange m-b-6">
+              The official theme will be announced as we get a little closer to the event, keep an eye out on social media and the Discord!
               </p>
             </div>
           </section>
+          <img src="https://cdn.weareasterisk.com/hackathon-assets/versionalpha/logos/VA_Logo_MarkWhite.svg" className="img-fluid image-center break-image-small"/>
+          <section id="important-links" className="importantLinks jumptarget">
+            <h1>Important Links</h1>
+            <div className="w-800p margin-center container-fluid">
+            <p> <FontAwesomeIcon icon="door-open"/> Register with us <a href="https://architech-inc.typeform.com/to/k6zYOXYx"> here!</a></p>
+            <p> <FontAwesomeIcon icon="puzzle-piece"/> Check us out on <a href="https://itch.io"> Itch io!</a></p>
+            <p> <FontAwesomeIcon icon="gamepad"/> Check out the Quakecon <a href="https://https://quakecon.bethesda.net/en"> home page!</a></p>
+            <p> <FontAwesomeIcon icon="ghost"/> Check out the  <a href="https://weareasterisk.com">We are asterisk site!!</a></p>
+            </div>
+          </section>
+
           <img src="https://cdn.weareasterisk.com/hackathon-assets/versionalpha/logos/VA_Logo_MarkWhite.svg" className="img-fluid image-center break-image-small"/>
           <section id="schedule" className="jumptarget">
             <Schedule/>
@@ -88,22 +91,8 @@ export default class HomePage extends Component {
               <Row className="justify-content-center">
                 <Col sm="4" xs="6">
                   <div className="vertical-center-image">
-                    <a href="https://www.dallaschamber.org/" target="_blank" rel="noopener noreferrer" title="DRC" >
-                      <img src="https://cdn.weareasterisk.com/hackathon-assets/partners/DRC_logo.png" className="image-center partners-image"/>
-                    </a>
-                  </div>
-                </Col>
-                <Col sm="4" xs="6">
-                  <div className="vertical-center-image">
-                    <a href="https://dreamhack.com/dallas/" target="_blank" rel="noopener noreferrer" title="dreamhack">
-                      <img src="https://cdn.weareasterisk.com/hackathon-assets/partners/dreamhack.png" className="image-center partners-image"/>
-                    </a>
-                  </div>
-                </Col>
-                <Col sm="4" xs="6">
-                  <div className="vertical-center-image">
-                    <a href="http://www.igdadallas.org/" target="_blank" rel="noopener noreferrer" title="IGDA" >
-                      <img src="https://cdn.weareasterisk.com/hackathon-assets/partners/igdaDallasLogo.png" className="image-center partners-image"/>
+                    <a href="https://quakecon.bethesda.net/en/" target="_blank" rel="noopener noreferrer" title="QuakeCon" >
+                      <img src="https://cdn.weareasterisk.com/sponsor-assets/quakecon/quakecon-at-home--longform--color--RGB--transparent-background.png" className="image-center partners-image"/>
                     </a>
                   </div>
                 </Col>
