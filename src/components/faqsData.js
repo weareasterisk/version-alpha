@@ -17,6 +17,10 @@ const data = [
       `<p>Anyone who signs up via <a href="Itch.io"> Itch.io </a> can participate! We also ask that you join the Discord to stay as up to date as possible.</p>`,
   },
   {
+    question: 'I\'ve been working on a game for a while, can I use that or do I need to start over?',
+    questionText: 'Prior work is acceptable! We welcome the development of new games and the continuation of games in development'
+  },
+  {
     question: "Do I need to know how to code? ",
     questionText:
       `<p>Not necessarily! Many games are made with software that helps you avoid the bulk of the work. If you have questions feel free to ask in the Discord!</p>>`,
@@ -25,6 +29,10 @@ const data = [
     question: "What do teams look like?",
     questionText:
       `<p>A team can consist of anywhere from 1 to 5 people.</p>`,
+  },
+  {
+    question: 'What if I don\'t have a team, but want to be in one?',
+    questionText: 'If you want to collaborate but don\'t have any partners yet, fear not! We will be hosting a team building session at the beginning of the game jam. Along with that you can reach out and form teams through the discord! '
   },
   {
     question: "What is a game jam?",
@@ -40,6 +48,10 @@ const data = [
     question: "What can I win?",
     questionText:
       `<p>We’ll have a few cool prizes and swag available, but this is mostly a time for us to come together and build things for fun!</p>`,
+  },
+  {
+    question: 'How do I win?',
+    questionText: 'The week of the event we will announce criteria for winning. This may include anything from a theme or idea we’d like to see implemented in your game. We will be sending out information and updating the website once this is announced.'
   },
   {
     question: "What if this FAQ doesn’t answer my question?",
