@@ -494,3 +494,7 @@ END FAQ STYLINGS
   padding-left: 0!important;
   padding-right: 0!important;
 }
+
+.invert-color-filter {
+  filter: brightness(0) invert(1);
+}

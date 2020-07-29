@@ -15,7 +15,7 @@ export default class HomePage extends Component {
       <div className="App">
         <div className="w-100">
           <section id="home" className="pageHome">
-            <img src="https://cdn.weareasterisk.com/hackathon-assets/versionalpha/logos/VA_Logo_LockUpWhite.svg" className="img-fluid image-center va-logo"/>
+            <img src="https://cdn.weareasterisk.com/hackathon-assets/versionalpha/logos/versionalpha-homebrew.png" className="img-fluid image-center va-logo invert-color-filter"/>
             <h3 className="p-top-50 orange"><i>"Homebrew"</i></h3>
             <div className="description-block">
               <p className="description-item">August 7th - 9th</p>
