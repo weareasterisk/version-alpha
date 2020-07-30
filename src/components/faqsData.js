@@ -14,7 +14,7 @@ const data = [
   {
     question: 'Who can participate?',
     questionText:
-      `<p>Anyone who signs up via <a href="Itch.io"> Itch.io </a> can participate! We also ask that you join the Discord to stay as up to date as possible.</p>`,
+      `<p>Anyone who signs up via Itch.io (coming soon) can participate! We also ask that you join the Discord to stay as up to date as possible.</p>`,
   },
   {
     question: 'I\'ve been working on a game for a while, can I use that or do I need to start over?',
