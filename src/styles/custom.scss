@@ -458,7 +458,7 @@ START FAQ STYLINGS
 }
 
 .faq-header {
-  margin: 2em
+  margin: 1.5em 2em
 }
 
 .pre-formatted {
@@ -493,4 +493,8 @@ END FAQ STYLINGS
 .p-sides-0 {
   padding-left: 0!important;
   padding-right: 0!important;
+}
+
+.invert-color-filter {
+  filter: brightness(0) invert(1);
 }

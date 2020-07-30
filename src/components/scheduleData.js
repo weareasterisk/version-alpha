@@ -57,7 +57,7 @@ const dayTwo = {
 };
 
 const dayThree = {
-  title: "Sunday, June 2",
+  title: "Sunday, August 9th",
   events: [
     {
       event: 'Midnight Mentorship',
