@@ -23,9 +23,9 @@ export default class HomePage extends Component {
           <Button className='skeletonButton' href="https://architech-inc.typeform.com/to/k6zYOXYx" target="_blank">Register Now!</Button>
           <br/>
           <br/>
-          <Button className='skeletonButton' href="https://discord.gg/quakecon" target="_blank">Discord</Button>
-          <Button className='skeletonButton' href="https://itch.io" target="_blank">Check out Itch.io</Button>
-          <Button className='skeletonButton' href="https://quakecon.bethesda.net/en" target="_blank">Quakecon at Home site</Button>
+          <Button className='skeletonButton m-r-20' href="https://discord.gg/quakecon" target="_blank">Discord</Button>
+          <Button className='skeletonButton m-r-20' href="https://itch.io" target="_blank">Itch.io</Button>
+          <Button className='skeletonButton' href="https://quakecon.bethesda.net/en" target="_blank">Quakecon at Home</Button>
           </section>
           <img src="https://cdn.weareasterisk.com/hackathon-assets/versionalpha/artwork/VA_Controller_v1-min.png" className="img-fluid image-center controller-art"/>
           <section id="about" className="pageAbout jumptarget">
