@@ -1,10 +1,9 @@
-import Button from "reactstrap/es/Button";
 import FAQ from "./faq";
 import FAQMobile from './faqMobile';
 import React, {Component} from "react";
 import Media from 'react-media';
 
-import {Col, Row} from "reactstrap";
+import {Col, Row, Button} from "reactstrap";
 import Schedule from "./schedule";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -21,7 +20,12 @@ export default class HomePage extends Component {
               <p className="description-item">August 7th - 9th</p>
               <p className="description-item">The Game Jam of Quakecon at Home</p>
             </div>
-
+          <Button className='skeletonButton' href="https://architech-inc.typeform.com/to/k6zYOXYx" target="_blank">Register Now!</Button>
+          <br/>
+          <br/>
+          <Button className='skeletonButton' href="https://discord.gg/quakecon" target="_blank">Discord</Button>
+          <Button className='skeletonButton' href="https://itch.io" target="_blank">Check out Itch.io</Button>
+          <Button className='skeletonButton' href="https://quakecon.bethesda.net/en" target="_blank">Quakecon at Home site</Button>
           </section>
           <img src="https://cdn.weareasterisk.com/hackathon-assets/versionalpha/artwork/VA_Controller_v1-min.png" className="img-fluid image-center controller-art"/>
           <section id="about" className="pageAbout jumptarget">
@@ -53,17 +57,6 @@ export default class HomePage extends Component {
               </p>
             </div>
           </section>
-          <img src="https://cdn.weareasterisk.com/hackathon-assets/versionalpha/logos/VA_Logo_MarkWhite.svg" className="img-fluid image-center break-image-small"/>
-          <section id="important-links" className="importantLinks jumptarget">
-            <h1>Important Links</h1>
-            <div className="w-800p margin-center container-fluid">
-            <p> <FontAwesomeIcon icon="door-open"/> Register with us <a href="https://architech-inc.typeform.com/to/k6zYOXYx"> here!</a></p>
-            <p> <FontAwesomeIcon icon="puzzle-piece"/> Check us out on <a href="https://itch.io"> Itch io!</a></p>
-            <p> <FontAwesomeIcon icon="gamepad"/> Check out the Quakecon <a href="https://https://quakecon.bethesda.net/en"> home page!</a></p>
-            <p> <FontAwesomeIcon icon="ghost"/> Check out the  <a href="https://weareasterisk.com">We are asterisk site!!</a></p>
-            </div>
-          </section>
-
           <img src="https://cdn.weareasterisk.com/hackathon-assets/versionalpha/logos/VA_Logo_MarkWhite.svg" className="img-fluid image-center break-image-small"/>
           <section id="schedule" className="jumptarget">
             <Schedule/>

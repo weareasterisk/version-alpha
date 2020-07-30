@@ -18,7 +18,7 @@ const data = [
   },
   {
     question: 'I\'ve been working on a game for a while, can I use that or do I need to start over?',
-    questionText: 'Prior work is acceptable! We welcome the development of new games and the continuation of games in development'
+    questionText: '<p>Prior work is acceptable! We welcome the development of new games and the continuation of games in development</p>'
   },
   {
     question: "Do I need to know how to code? ",
@@ -32,7 +32,7 @@ const data = [
   },
   {
     question: 'What if I don\'t have a team, but want to be in one?',
-    questionText: 'If you want to collaborate but don\'t have any partners yet, fear not! We will be hosting a team building session at the beginning of the game jam. Along with that you can reach out and form teams through the discord! '
+    questionText: '<p>If you want to collaborate but don\'t have any partners yet, fear not! We will be hosting a team building session at the beginning of the game jam. Along with that you can reach out and form teams through the discord!</p>'
   },
   {
     question: "What is a game jam?",
@@ -51,7 +51,7 @@ const data = [
   },
   {
     question: 'How do I win?',
-    questionText: 'The week of the event we will announce criteria for winning. This may include anything from a theme or idea we’d like to see implemented in your game. We will be sending out information and updating the website once this is announced.'
+    questionText: '<p>The week of the event we will announce criteria for winning. This may include anything from a theme or idea we’d like to see implemented in your game. We will be sending out information and updating the website once this is announced.</p>'
   },
   {
     question: "What if this FAQ doesn’t answer my question?",

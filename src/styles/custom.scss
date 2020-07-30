@@ -498,3 +498,8 @@ END FAQ STYLINGS
 .invert-color-filter {
   filter: brightness(0) invert(1);
 }
+
+.cta-button {
+  background-color: $brand-orange;
+  color: $lightgrey;
+}
