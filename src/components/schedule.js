@@ -30,6 +30,7 @@ export default class Schedule extends Component {
             </Col>
           )}
         </Row>
+        <p><b> <a className="orange" href="https://quakecon.bethesda.net/en/schedule/" target="_blank" rel="noopener noreferrer">+ See more on the QuakeCon at Home Schedule</a></b></p>
       </div>
     )
   }

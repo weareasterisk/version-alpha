@@ -15,7 +15,7 @@ export default class HomePage extends Component {
         <div className="w-100">
           <section id="home" className="pageHome">
             <img src="https://cdn.weareasterisk.com/hackathon-assets/versionalpha/logos/versionalpha-homebrew.png" className="img-fluid image-center va-logo invert-color-filter"/>
-            <h3 className="p-top-50 orange"><i>"Homebrew"</i></h3>
+            <h3 className="p-top-50 orange"><i></i></h3>
             <div className="description-block">
               <p className="description-item">August 7th - 9th</p>
               <p className="description-item">The Game Jam of Quakecon at Home</p>
@@ -24,7 +24,7 @@ export default class HomePage extends Component {
           <br/>
           <br/>
           <Button className='skeletonButton m-r-20' href="https://discord.gg/quakecon" target="_blank">Discord</Button>
-          {/* <Button className='skeletonButton m-r-20' href="https://itch.io" target="_blank">Itch.io</Button> */}
+          <Button className='skeletonButton m-r-20' href="https://itch.io/jam/version-alpha-homebrew" target="_blank">Itch.io</Button>
           <Button className='skeletonButton' href="https://quakecon.bethesda.net/en" target="_blank">Quakecon at Home</Button>
           </section>
           <img src="https://cdn.weareasterisk.com/hackathon-assets/versionalpha/artwork/VA_Controller_v1-min.png" className="img-fluid image-center controller-art"/>
