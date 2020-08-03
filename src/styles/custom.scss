@@ -1,6 +1,11 @@
 @import './_colors.scss';
 @import '../../node_modules/bootstrap/scss/bootstrap';
 
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body {
   background-color: black!important;
   color: white;

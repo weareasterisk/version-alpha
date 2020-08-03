@@ -40,6 +40,11 @@ const data = [
       `<p>A game jam is an event where people are given an allotted amount of time to create a game, typically based around a theme or asset. Version Alpha: Homebrew is one of these events!</p>`,
   },
   {
+    question: "What's the theme?",
+    questionText:
+      `<p>As a part of Quakecon at Home, the theme of the game jam revolves around the home. We wish to leave this up to interpretation, either meaning the home setting, or a more abstract concept of a home.</p>`
+  },
+  {
     question: "What else is there to do?",
     questionText:
       `<p>Version Alpha: Homebrew is in partnership with Quakecon at Home- there’s a whole lot of other stuff happening around the Discord server! Check out the Quakecon at Home site for more information.</p>`,

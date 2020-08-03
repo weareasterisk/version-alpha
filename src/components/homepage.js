@@ -52,8 +52,13 @@ export default class HomePage extends Component {
           <section id="themes" className="pageThemes jumptarget">
             <h1>Themes</h1>
             <div className="w-800p margin-center container-fluid">
-              <p className="font-weight-bold branding-orange m-b-6">
-              The official theme will be announced as we get a little closer to the event, keep an eye out on social media and the Discord!
+              <h5 class="orange font-weight-bold m-b-8">THERE'S NO PLACE LIKE HOME</h5>
+              <br/>
+              <p className="m-b-8">
+                As a part of Quakecon at Home, it’s only right that the theme for Version Alpha: Homebrew revolves around the home. As a setting or more abstract concept, you can take the idea of the home and interpret it as you please.
+              </p>
+              <p className="m-b-8">
+                Whether your game is about returning home or takes place in one, we’re looking forward to seeing your use of the theme!
               </p>
             </div>
           </section>
