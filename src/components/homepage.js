@@ -23,7 +23,7 @@ export default class HomePage extends Component {
           <Button className='skeletonButton' href="https://architech-inc.typeform.com/to/k6zYOXYx" target="_blank">Register Now!</Button>
           <br/>
           <br/>
-          <Button className='skeletonButton m-r-20' href="https://discord.gg/quakecon" target="_blank">Discord</Button>
+          <Button className='skeletonButton m-r-20' href="https://discord.gg/34aMfXx" target="_blank">Discord</Button>
           <Button className='skeletonButton m-r-20' href="https://itch.io/jam/version-alpha-homebrew" target="_blank">Itch.io</Button>
           <Button className='skeletonButton' href="https://quakecon.bethesda.net/en" target="_blank">Quakecon at Home</Button>
           </section>
@@ -50,7 +50,7 @@ export default class HomePage extends Component {
           </section>
           <img src="https://cdn.weareasterisk.com/hackathon-assets/versionalpha/logos/VA_Logo_MarkWhite.svg" className="img-fluid image-center break-image-small"/>
           <section id="themes" className="pageThemes jumptarget">
-            <h1>Themes</h1>
+            <h1>Theme</h1>
             <div className="w-800p margin-center container-fluid">
               <h5 class="orange font-weight-bold m-b-8">THERE'S NO PLACE LIKE HOME</h5>
               <br/>
